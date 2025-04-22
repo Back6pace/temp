@@ -6,29 +6,25 @@ using System.Threading.Tasks;
 
 public class algoritm2
 {
-    // Главная точка входа приложения
     public static void Main()
     {
-        // Инициализация переменных
-        int smallNumber = 585;
-        int bigNumber = 580;
+        int smallNumber = 510;
+        int bigNumber = 500;
 
-        // Условная конструкция if-else
         if (bigNumber < smallNumber)
         {
-            System.Console.Write(bigNumber);      // Если условие истинно, выводится большее число
-            System.Console.Write(" меньше, чем "); // Затем выводится строка
-            System.Console.WriteLine(smallNumber);// Наконец, меньшее число и переход на новую строку
+            System.Console.Write(bigNumber);
+            System.Console.Write(" меньше, чем ");
+            System.Console.WriteLine(smallNumber);
         }
         else
         {
-            System.Console.Write(smallNumber);   // Иначе наоборот, сначала меньшее число
-            System.Console.Write(" меньше, чем ");// Строка снова
-            System.Console.WriteLine(bigNumber);  // Затем большее число и новая строка
+            System.Console.Write(smallNumber);
+            System.Console.Write(" меньше, чем ");
+            System.Console.WriteLine(bigNumber);
         }
 
-        // Сообщение пользователю о завершении программы
-        System.Console.WriteLine("Для выхода нажмите Enter");
-        System.Console.ReadLine();               // Ожидание нажатия клавиши Enter перед закрытием окна
+        System.Console.WriteLine("Для выхода нажмите любую клавишу");
+        System.Console.ReadLine();
     }
 }
